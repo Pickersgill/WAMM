@@ -1,0 +1,22 @@
+* Train a Markov Model for your WhatsApp group chat message history...
+
+Download the group chat history [[https://faq.whatsapp.com/196737011380816/?locale=en_US][like so.]] Do not use the history including media, this will not work.
+
+Follow the steps to produce new messages.
+
+** How to use.
+
+Install the requirements:
+#+BEGIN_EXAMPLE
+pip3 install -r requirements.txt
+#+END_EXAMPLE
+
+Run the program (go.py) giving your WhatsApp history:
+#+BEGIN_EXAMPLE
+python3 go.py <your-chat-history>.txt  
+#+END_EXAMPLE
+
+For further help use the argparse hints:
+#+BEGIN_EXAMPLE
+python3 go.py -h
+#+END_EXAMPLE
