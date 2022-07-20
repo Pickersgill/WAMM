@@ -1,0 +1,9 @@
+venv/*
+venv/
+*/venv/
+*.pyc
+*/*.pyc
+*.swp
+*/*.swp
+*.txt
+*/*.txt

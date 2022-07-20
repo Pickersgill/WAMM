@@ -2,6 +2,7 @@ import markov
 import sys
 import pandas as pd
 import argparse
+from decode import decode
 
 parser = argparse.ArgumentParser(description="A tool for fitting Markov Models to WhatsApp\
         group chat history.")
@@ -24,7 +25,7 @@ if args.data is None:
 limit = 10000 if args.limit is None else args.limit
 mem = 1 if args.memory is None else args.mem
 
-data = [l for l in open(args.data)]
+data = decode(open(args.data))
 
 model = markov.SimpleMM(data[:limit], mem)
 
