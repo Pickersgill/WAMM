@@ -4,6 +4,10 @@ Download the group chat history [[https://faq.whatsapp.com/196737011380816/?loca
 
 Follow the steps to produce new messages.
 
+** Warning
+
+This tool was made before/during the Facebook/Meta takeover of WhatsApp. I am not actively maintaining it and I do not expect their message log formats to remain the same, or even available, indefinetely.
+
 ** How to use.
 
 Install the requirements:
